@@ -1,0 +1,39 @@
+.nomeDoSite{
+    text-align: center;
+}
+
+.linksNaoFormatados{
+    text-decoration: none;
+    color:black;
+}
+
+.linksNaoFormatados:hover{
+    font-weight: bold;
+    color: grey;
+}
+
+.cabecalhoLinks{
+    text-align: center;
+}
+
+.linkCulturaCidade{
+    display: inline-block;
+    width: 49%;
+}
+
+.linkCultura{
+    display: inline-block;
+    width: 33%;
+}
+
+.linkCidade{
+    display: inline-block;
+    width: 19%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
