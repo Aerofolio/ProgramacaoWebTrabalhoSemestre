@@ -1,10 +1,49 @@
-.divNomeDoSite{
-    text-align: center;
+body{
+    margin:0px;
+    background-color: white;
 }
 
-.nomeDoSite{
+.imagemPrincipalDaPag{
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+    position: relative;
+    border-bottom: 0;
+}
+
+.uvaLogo{
+    width: 75px;
     vertical-align: middle;
     display: inline-block;
+    margin-left: 10px;
+}
+
+.textoConteudo{
+    background-color: white;
+    padding-left: 50px; padding-right: 50px;
+    padding-top: 15px; padding-bottom: 15px;
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+
+.navBar{
+    font-family: "Poppins", Helvetica, sans-serif;
+    width: 100%;
+    height: fit-content;
+    padding-top: 10px; padding-bottom: 10px;
+    background-color: white;
+    font-size: 20px;
+    box-shadow: 0px 2px 8px black;
+    position: fixed;
+    top: 0;
+}
+
+.footer{
+    background-color: #121921;
+    font-family: "Poppins", Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 50px; padding-right: 50px;
+    padding-top: 15px; padding-bottom: 15px;
 }
 
 .linksNaoFormatados{
@@ -12,77 +51,57 @@
     color:black;
 }
 
-.linksNaoFormatados:hover{
-    font-weight: bold;
-    color: grey;
+.footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
 }
 
-.cabecalhoLinks{
-    text-align: center;
+.footer a:hover{
+    text-decoration: none;
+    color: white;
 }
 
-.linkCulturaCidade{
-    display: inline-block;
-    width: 49%;
-}
 
-.linkCultura{
-    display: inline-block;
-    width: 33%;
-}
-
-.linkCidade{
-    display: inline-block;
-    width: 19%;
-}
-
-.footer {
-    font-size: 13px;
+.dropbtn {
+    font-family: "Poppins", Helvetica, sans-serif;
     color: black;
-    /* position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem; */
-}
-
-.linhaPretaContorno{
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 8px;
-    padding-left: 8px;
-}
-
-body{
-    background: #ffffdd;
-    border-color: #b6902a;
-    border-style: solid;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.uva{
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
     width: 100px;
-    vertical-align: middle;
+    transition: 0.3s;
+}
+
+.dropdown {
+    position: relative;
     display: inline-block;
 }
 
-.uvaEspelhada{
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    width: 100px;
-    vertical-align: middle;
-    display: inline-block;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 2px 8px black;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
 }
 
-.divisaoFooter{
-    border-color: #b6902a;
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #a31818;
 }
