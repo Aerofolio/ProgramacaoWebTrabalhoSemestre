@@ -12,6 +12,22 @@ body{
     border-bottom: 0;
 }
 
+.imagemCorpo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.divImagemCorpo{
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 10px;
+    color:black;
+    text-align: center;
+}
+
 .uvaLogo{
     width: 75px;
     vertical-align: middle;
