@@ -1,6 +1,10 @@
+#tituloCulturaItaliana{
+    background-image:  linear-gradient(90deg, green,white, red);
+}
+
 body{
     margin:0px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .imagemPrincipalDaPag{
@@ -19,6 +23,7 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     width: 50%;
+    box-shadow: 0px 0px 5px black;
 }
 
 .divImagemCorpo{
@@ -36,10 +41,45 @@ body{
 }
 
 .textoConteudo{
-    background-color: white;
+    background-color: whitesmoke;
     padding-left: 50px; padding-right: 50px;
     padding-top: 15px; padding-bottom: 15px;
     font-family: "Poppins", Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.textoConteudo h1{
+    font-size: 60px;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    width: fit-content;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textoConteudo h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.textoConteudo h2 {
+    width: 70%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+}
+.textoConteudo h2:before, .textoConteudo h2:after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 1px solid;
+}
+
+.textoConteudo h2:after {
+    margin: 0 -55% 0 .5em;
 }
 
 .navBar{
@@ -47,7 +87,7 @@ body{
     width: 100%;
     height: fit-content;
     padding-top: 10px; padding-bottom: 10px;
-    background-color: white;
+    background-color: whitesmoke;
     font-size: 20px;
     box-shadow: 0px 2px 8px black;
     position: fixed;
@@ -84,7 +124,7 @@ body{
     padding: 16px;
     font-size: 20px;
     border: none;
-    background-color: white;
+    background-color: whitesmoke;
     width: 100px;
     transition: 0.3s;
 }
