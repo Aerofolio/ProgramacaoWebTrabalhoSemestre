@@ -2,6 +2,10 @@
     background-image:  linear-gradient(90deg, green,white, red);
 }
 
+#tituloBentoGoncalves{
+    background-image:  linear-gradient(90deg, blue, green,yellow, red);
+}
+
 body{
     margin:0px;
     background-color: whitesmoke;
@@ -42,8 +46,8 @@ body{
 
 .textoConteudo{
     background-color: whitesmoke;
-    padding-left: 50px; padding-right: 50px;
-    padding-top: 15px; padding-bottom: 15px;
+    padding-left: 100px; padding-right: 100px;
+    padding-top: 50px; padding-bottom: 50px;
     font-family: "Poppins", Helvetica, sans-serif;
     text-align: justify;
 }
