@@ -6,6 +6,26 @@
     background-image:  linear-gradient(90deg, blue, green,yellow, red);
 }
 
+#tituloCanela{
+    background-image:  linear-gradient(90deg, DeepSkyBlue, white, DeepSkyBlue);
+}
+
+#tituloHome{
+    background-image:  linear-gradient(90deg, Indigo, MediumPurple);
+}
+
+#tituloGramado{
+    background-image:  linear-gradient(90deg, blue, green, yellow);
+}
+
+#tituloFarroupilha{
+    background-image:  linear-gradient(90deg, yellow, red, green);
+}
+
+#tituloCulturaGaucha{
+    background-image:  linear-gradient(90deg, , green, red, yellow);
+}
+
 body{
     margin:0px;
     background-color: whitesmoke;
