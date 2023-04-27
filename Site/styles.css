@@ -2,6 +2,10 @@
     background-image:  linear-gradient(90deg, green,white, red);
 }
 
+#tituloCulturaAlema{
+    background-image:  linear-gradient(90deg, #000000,#d20000, #f2c300);
+}
+
 #tituloBentoGoncalves{
     background-image:  linear-gradient(90deg, blue, green,yellow, red);
 }
