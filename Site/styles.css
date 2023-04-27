@@ -6,6 +6,10 @@
     background-image:  linear-gradient(90deg, #000000,#d20000, #f2c300);
 }
 
+#tituloCulturaGaucha{
+    background-image:  linear-gradient(90deg, #0b8f44, #c01b15, #e7de07);
+}
+
 #tituloBentoGoncalves{
     background-image:  linear-gradient(90deg, blue, green,yellow, red);
 }
@@ -24,10 +28,6 @@
 
 #tituloFarroupilha{
     background-image:  linear-gradient(90deg, yellow, red, green);
-}
-
-#tituloCulturaGaucha{
-    background-image:  linear-gradient(90deg, red, green yellow);
 }
 
 #tituloNovaPetropolis{
